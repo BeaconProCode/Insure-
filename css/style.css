@@ -1,0 +1,172 @@
+/* * {
+    padding: 0;
+    margin: O;
+    box-sizing: border-box;
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 100px;
+}
+
+.navbar .links a{
+   text-decoration: none; 
+   font-size: 10px;
+   color: gray;
+   margin: 5px; 
+}
+
+.navbar .links button{
+    margin-left: 25px;
+    padding: 8px 15px;
+    font-size: 10px;
+    background-color: #fff;
+    font-weight: 600;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.hamburger span{
+    width: 20px;
+    height: 2px;
+    background-color: #000;
+}
+
+.section1{
+    background-color: hsl(256, 26%, 20%);
+    height: 400px;
+    padding-top: 50px;
+
+}
+
+hr{
+    width: 100px;
+    border: solid 1px;
+    float: left;
+    margin-left: 100px;
+    color: #fff;
+}
+
+.section1 img{
+    float: right;
+    margin-right: 220px;
+
+}
+
+.section1 .content{
+    margin-left: 100px;
+    color: #fff;
+    font-size: x-large;
+}
+
+.section1 .content2{
+    color: #fff;
+    margin-left: 100px;
+}
+
+.section1 button{
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    border-color: #fff;
+    padding: 5px 15px;
+    margin: 10px 100px;
+}
+
+ hr.horizontal-line {
+    width: 100px;
+    border: solid 1px;
+    float: left;
+    margin-left: 100px;
+}
+
+.text{
+    font-size: 40px;
+    margin: 250px 100px 30px 100px;
+}
+
+.section2{
+    display: flex;
+    margin: 100px 200px 150px 100px;
+    gap: 200px;
+}
+
+.section2 .snappy p, .price p, .people p{
+    font-size: 15px;
+}
+
+.section3{
+    background-color: hsl(256, 26%, 20%);
+    height: 230px;
+    margin: 100px 100px;
+}
+
+.section3 button{
+    float: right;
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+    border-color: #fff;
+    padding: 8px 15px;
+    font-size: 10px;
+    margin: 100px;
+}
+
+.section3 .work{
+    color: #fff;
+    padding: 25px 50px 25px 50px;
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+.container{
+    background-color: ghostwhite;
+    height: 300px;
+}
+
+.container .item1{
+    float: right;
+    margin-right: 100px;
+    padding-top: 50px;
+}
+
+.container .item2{
+    margin-left: 100px;
+    padding-top: 50px;
+}
+
+.item1 .twitter{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.item1 .pinterest{
+    padding-right: 10px;
+}
+
+.first-list{
+    margin-top: 30px;
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 50px;
+}
+
+.first-list .more1 span{
+    font-size: 10px;
+    color: gray;
+    margin-left: 100px;
+}
+
+.first-list .more1 ul{
+    color: #000;
+    padding-left: 1px;
+    list-style: none;
+    font-size: 10px;
+    line-height: 1.5rem;
+    margin-left: 100px;
+}
